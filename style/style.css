@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: gray;
+}    
+.nav { border: 1px solid darkorange;
+background-color: darkorange;
+    color: blue;
+    padding: 2px 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.image-1 {
+  height: 200px;
+  position: left
+}
+a {color:blue;
+}
+header,
+main,
+aside,
+footer {
+    border: darkorange solid 10px;
+    text-align:center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+main {
+  width: 72%;
+  height: 400px;
+  float: left;
+}
+aside {
+  width: 25%;
+  height: 400px;
+  float: right;
+}
+
+footer {
+  width:  100%;
+  height: 100px;
+  clear: both;
+}
