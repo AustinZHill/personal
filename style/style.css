@@ -2,41 +2,51 @@
 body {
   font-family: 'Orbitron', sans-serif;
   background-color: gray;
+  background-image: url(../images/nucleus.jpg);
+  background-size: 100%;
 }    
-.nav { border: 1px solid darkorange;
-background-color: darkorange;
+.nav { border: 1px solid red;
+background-color: white;
     color: blue;
-    padding: 2px 5px;
-    margin-left: 10px;
+    padding: 1px 1px;
+    margin-left: 1px;
     text-decoration: none;
 }
 .image-1 {
   height: 200px;
-  position: left
+  position: static;
 }
-a {color:blue;
+a {color:red;
 }
 header,
 main,
 aside,
 footer {
-    border: darkorange solid 10px;
+    border: blue solid 5.5px;
     text-align:center;
 }
-
+main-2 {
+  border-right: none;
+  border-top: none;
+  border-bottom:none;
+}
+main-3 {
+  width: 100%;
+  height: 100%;
+}
 header {
     width: 100%;
-    height: 100px;
+    height: 30%;
 }
 
 main {
-  width: 72%;
-  height: 400px;
+  width: 30%;
+  height: 70%;
   float: left;
 }
 aside {
-  width: 25%;
-  height: 400px;
+  width: 27%;
+  height: 70%;
   float: right;
 }
 
@@ -44,4 +54,5 @@ footer {
   width:  100%;
   height: 100px;
   clear: both;
+  background-color: rgba(255, 255, 255, .7);
 }
